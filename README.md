@@ -15,6 +15,8 @@ pkg install openssh tree git
 termux-setup-storage # allows access to chromebook's file system. Kinda important. 
 ```
 
+Running these commands will get you up and running with a unix terminal that has git and access to local storage on your chromebook. 
+
 ## Chrome Flags
 
 To enable javascript development with es6 modules (aka a sane development experience) you need to enable tell Chrome you want to enable them. To do this open a chrome tab and type `chrome://flags` and search for `experimental web platform` and click enable. You then have to do a quick reset and you'll have a ready to go modular javascript experience. 
